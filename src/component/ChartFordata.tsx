@@ -70,7 +70,7 @@ const ChartFordata = () => {
 console.log("dailyupdates",dailyupdates);
 
     return (
-    //    dailyupdates.length ? ( 
+  
         <Block
         width='100%'
         marginTop="70px"
@@ -85,7 +85,7 @@ console.log("dailyupdates",dailyupdates);
                 }
             }}/>
         </Block>
-    //    ):null  
+  
     )
 }
 

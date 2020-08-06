@@ -1,4 +1,6 @@
-import * as React from "react";
+
+import React,{useState} from 'react'
+import {Button} from 'baseui/Button'
 import {
     Modal,
     ModalHeader,
@@ -8,10 +10,10 @@ import {
     SIZE,
     ROLE,
   } from 'baseui/modal';
-import {Button,KIND as ButtonKind } from "baseui/button";
+// import { KIND } from 'baseui';
 
 const ModalBox = () => {
-    const [isOpen, setIsOpen] = React.useState(false);
+    const [isOpen, setIsOpen] = useState(false);
   
   
   return (
@@ -56,7 +58,7 @@ const ModalBox = () => {
           aliquet mauris ut tempus.
         </ModalBody>
         <ModalFooter>
-          <ModalButton kind={ButtonKind.tertiary}>
+          <ModalButton>
             Cancel
           </ModalButton>
           <ModalButton >Okay</ModalButton>

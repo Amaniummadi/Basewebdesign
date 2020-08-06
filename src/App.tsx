@@ -3,13 +3,13 @@ import {Client as Styletron} from 'styletron-engine-atomic';
 import {Provider as StyletronProvider} from 'styletron-react';
 import {LightTheme, BaseProvider, styled} from 'baseui';
 import './App.css';
-import Navbar from './components/Navbar';
-// import MainComponent from './components/MainComponent';
-import ChartFordata from './components/ChartFordata';
-import CardComponent from './components/CardComponent';
-import WorldwideCases from './components/WorldwideCases';
-// import OverRides from './components/OverRides';
-import ModalBox from './components/ModalBox';
+import Navbar from './component/Navbar';
+
+import ChartFordata from './component/ChartFordata';
+import CardComponent from './component/CardComponent';
+import WorldwideCases from './component/WorldwideCases';
+
+import ModalBox from './component/ModalBox';
 
 
 

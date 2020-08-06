@@ -2,7 +2,7 @@
 import React from 'react'
 import {StatefulList} from 'baseui/dnd-list';
 import {useStyletron} from 'baseui'
-import {StyledBaseButton,Button} from 'baseui/button';
+import {StyledBaseButton,Button} from 'baseui/Button';
 import {withStyle} from 'baseui';
 import {Spring} from 'react-spring/renderprops'
 
@@ -44,7 +44,7 @@ const OverRides = () => {
                     };
                   }
                 }
-              }}>overrides button</Button>
+              }}>overrides button</Button> 
               <Spring
   from={{ x: 100 }}
   to={{ x: 0 }}>
